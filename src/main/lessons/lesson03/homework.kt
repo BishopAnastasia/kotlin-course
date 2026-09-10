@@ -31,7 +31,7 @@ class homework {
     var temperature: Double = 10.4//    Текущая температура в помещении
     var monitoring: String = "атлична! графана показывает что скорость наивысочайшая! целых 6 Мбит/с"//    Данные мониторинга и анализ производительности сетевого оборудования и интернет-соединения для целей отладки своих приложений командами
         private set
-    private var speedInternetRegulator: Double = 5.0
+    private var speedInternetRegulator: Double = 6.0
         set(value) {
             if (value > 6.0) {
                 field = value-0.5
